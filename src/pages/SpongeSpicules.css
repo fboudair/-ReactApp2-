@@ -1,0 +1,33 @@
+.sponges-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background: #0c0b0b;
+    padding: 20px;
+  }
+  
+  .sponges-card {
+    background: #EBCA66;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .sponges-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .sponges-text {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  

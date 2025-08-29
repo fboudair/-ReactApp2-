@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "SQT® Anti Aging",
+      "description": "The SQT® Anti-Aging Rejuvenation Set sets the benchmark for skin hydration, lifting, and remodeling. Ideal for mature skin starting from age 30, it effectively tightens the skin, smooths fine lines and wrinkles, and delivers a youthful, radiant complexion.",
+      "image": "./src/assets//Antiaging Set4.png",
+      "price": 400.00
+    },
+    {
+      "id": 2,
+      "name": "SQT® Revitalizing Beauty Set",
+      "description": "Experience the next level of skincare with Revitalizing Beauty II, designed for oily, dry, sensitive, and combination skin. This advanced formula refines skin texture, evens skin tone, and reduces pigmentation, leaving your complexion refreshed and radiant.",
+      "image": "/src/assets/Revitalizing.jpeg",
+      "price": 275.00
+    },
+    {
+      "id": 3,
+      "name": "SQT® Resurfacing Repair Set",
+      "description": "Reveal smoother, healthier, and more radiant skin with Resurfacing Repair II, crafted for all skin types. This powerful formula enhances skin renewal, improves texture, and reduces imperfections, leaving your complexion revitalized.",
+      "image": "/src/assets/Resurfacing.jpeg",
+      "price": 275.00
+    },
+    {
+      "id": 4,
+      "name": "SQT® Nourishing Hydrating Set",
+      "description": "Elevate your skincare routine with the SQT® Nourishing Hydrating Set, designed for dry, combination, and sensitive skin. This advanced set offers deep nourishment, repair, and revitalization, restoring your skin’s natural glow.",
+      "image": "/src/assets/Nourishing1.jpg",
+      "price": 330.00
+    },
+    {
+      "id": 5,
+      "name": "SQT® Spongilla Recovery Kit",
+      "description": "The SQT® Spongilla Recovery Set is a unique formula that soothes and hydrates the skin after treatment. This specially crafted formulation reinforces weakened skin barriers, boosts the skin’s natural healing process, and enhances skin sensitivity.",
+      "image": "/src/assets/recovery.png",
+      "price": 120.00
+    }
+  ]
+}

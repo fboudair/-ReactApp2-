@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "SQT® Anti Aging",
+      "description": "Tightens skin, smooths fine lines, hydrates.",
+      "image": "/images/Antiaging.png",
+      "price": "$400.00"
+    },
+    {
+      "id": 2,
+      "name": "SQT® Revitalizing Beauty Set",
+      "description": "Refines skin texture, reduces pigmentation.",
+      "image": "/images/Revitalizing.jpeg",
+      "price": "$275.00"
+    }
+  ]
+}
