@@ -1,5 +1,9 @@
 import React from "react";
 import "./Home.css";
+import SQT11 from "../assets/SQT11.jpeg";
+import SQT12 from "../assets/SQT12.jpeg";
+import SQT3 from "../assets/SQT3.jpeg";
+import SQT4 from "../assets/SQT4.jpeg";
 // Functional component for the Home page
 export default function Home() {
   return (
@@ -24,7 +28,14 @@ export default function Home() {
         <p>
           Safe for all skin types and clinically proven, this cutting-edge treatment delivers visible, long-lasting results, making it the top choice for skincare professionals and clients seeking extraordinary transformations.
         </p>
+    
       </div>
+      
+       <div className="home-gallery">
+  <img src={SQT11} alt="Treatment 1" className="gallery-img" />
+  <img src={SQT12} alt="Treatment 2" className="gallery-img" />
+  <img src={SQT3} alt="Treatment 3" className="gallery-img" />
+</div>
     </div>
   );
 }

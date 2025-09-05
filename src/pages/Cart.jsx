@@ -2,8 +2,11 @@
 import { use } from "react";  // React hook for context consumption
 import { CartContext } from "../contents/Cart"; // Import the Cart context
 import "./Cart.css"; // Import CSS styles for the cart
+import { useNavigate } from "react-router-dom";
+
 // Main Cart component
 export default function Cart() {
+    const navigate = useNavigate();
   // Destructure cart state and actions from CartContext
   const { cart, removeFromCart, clearCart, updateQuantity } = use(CartContext);
   // Calculate total price of all items in the cart
@@ -94,10 +97,11 @@ export default function Cart() {
             <button onClick={clearCart} className="clear-button">
               Clear Cart
             </button>
-            <button className="checkout-button">Checkout</button>
-          </div>
+<button className="checkout-button" onClick={() => navigate("/checkout")}>
+      Checkout </button>          </div>
         </div>
       )}
+      
     </div>
   );
 }

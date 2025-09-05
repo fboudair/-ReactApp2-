@@ -27,3 +27,36 @@
     text-decoration: underline;
   }
   
+  .contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #EBB866;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #d9a24b;
+}
+
+.form-status {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}

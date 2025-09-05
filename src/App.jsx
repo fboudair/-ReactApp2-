@@ -13,6 +13,7 @@ import Cart from "./pages/Cart";
 // Importing context providers for global state
 import { CartProvider } from "./contents/Cart";
 import { AuthProvider } from "./contents/Auth";
+import Checkout from "./pages/Checkout";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
                 <Route path="/policy" element={<Policy />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/cart" element={<Cart />} />
+                <Route path="/checkout" element={<Checkout />} /> 
               </Routes>
             </main>
           </div>
